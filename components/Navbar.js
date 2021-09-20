@@ -19,24 +19,30 @@ export default function Navbar() {
         <nav className={styles.nav}>
           <li>
             <Link to="home" spy={true} smooth={true} duration={500}>
-              <a>
-                <Image src={Logo} width={80} height={80} />
-              </a>
+              <Image src={Logo} width={60} height={60} />
             </Link>
           </li>
 
           <li>
-            <a href="#contact" className={styles.contact}>
+            <Link
+              className={styles.contact}
+              to="contact"
+              spy={true}
+              smooth={true}
+              duration={500}
+            >
               Contact
-            </a>
+            </Link>
           </li>
         </nav>
         <div className={styles.container_hero}>
-          <Image src={Logo} width={75} height={75} className={styles.logo} />
+          <Image src={Logo} width={99} height={99} className={styles.logo} />
 
-          <h3 class="display-3">Ben Tijanic</h3>
-          <h1 class="display-1">Full Stack Developer</h1>
-          <button className={styles.mybutton}>See More</button>
+          <h3>Ben Tijanic</h3>
+          <h1>Full Stack Developer</h1>
+          <Link to="work" spy={true} smooth={true} duration={500}>
+            <button className={styles.mybutton}>See More</button>
+          </Link>
         </div>
         <div className={styles.banner}>
           <p>

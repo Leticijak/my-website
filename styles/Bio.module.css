@@ -5,6 +5,7 @@
   color: white;
   justify-content: center;
   align-items: center;
+  padding: 20px 0;
 }
 
 .bio_cont {
@@ -17,4 +18,7 @@
 .bio_cont p {
   font-size: 1.3rem;
   font-family: "Quicksand", sans-serif;
+}
+.bio h1 {
+  font-family: "Orbitron", sans-serif;
 }

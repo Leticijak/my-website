@@ -41,7 +41,12 @@ footer {
   display: flex;
   flex-direction: column;
 
-  background: url("../public/img/paw.webp");
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.9) 100%,
+      rgba(0, 0, 0, 1) 100%
+    ),
+    url("../public/img/paw.webp");
   color: #fff;
   align-items: center;
   padding: 20px;
@@ -55,4 +60,9 @@ footer {
 section {
   color: black;
   padding: 30px 0;
+}
+#logo {
+  top: 0;
+  left: 0;
+  position: absolute;
 }

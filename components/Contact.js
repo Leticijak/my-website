@@ -17,11 +17,10 @@ export default function Contact() {
             <h2>Get in touch</h2>
             <p>Leave a message</p>
           </div>
-          <form action="https://formspree.io/f/xpzoqkzn">
+          <form action={process.env.NEXT_APP_FORM} method="POST">
             <div className={styles.group}>
-              <label for="name">Your Name</label>
+              <label htmlFor="name">Your Name</label>
               <input
-                class="form-control"
                 type="text"
                 id="name"
                 name="name"
@@ -31,9 +30,8 @@ export default function Contact() {
               />
             </div>
             <div className={styles.group}>
-              <label for="_replyto">Your Email</label>
+              <label htmlFor="_replyto">Your Email</label>
               <input
-                class="form-control"
                 name="_replyto"
                 placeholder=" Aa"
                 id="_replyto"
@@ -42,7 +40,7 @@ export default function Contact() {
               />
             </div>
             <div className={styles.group}>
-              <label for="message">Your Message</label>
+              <label htmlFor="message">Your Message</label>
               <textarea
                 name="message"
                 id="message"

@@ -7,7 +7,7 @@ import styles from "../styles/Projects.module.css";
 export default function Projects() {
   return (
     <>
-      <div className={styles.skills_section}>
+      <div className={styles.skills_section} id="work">
         <div className={styles.center}>
           <h1>Work Example</h1>
         </div>
@@ -46,7 +46,6 @@ export default function Projects() {
 
             <a
               type="button"
-              class="btn btn-outline-success"
               target="_blank"
               rel="noreferrer"
               href="https://cryp7o.netlify.app/"

@@ -10,6 +10,7 @@
     url("../public/img/pawe1.webp");
 
   color: white;
+  position: relative;
 }
 
 .nav {
@@ -18,13 +19,6 @@
   flex-direction: row;
   padding: 20px;
   font-family: "Orbitron", sans-serif;
-  position: fixed;
-}
-
-.menu {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
 }
 
 .nav li {
