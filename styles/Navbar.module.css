@@ -45,8 +45,9 @@
 }
 .container_hero h3 {
   font-size: 2rem;
+  letter-spacing: 2px;
   font-weight: 500;
-  text-shadow: 2p 2px 4px rgba(0, 0, 0, 0.7);
+  text-shadow: 2p 2px 7px rgba(0, 0, 0, 0.7);
   animation: goDown 2s 1.5s both;
 }
 .container_hero h1 {

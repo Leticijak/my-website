@@ -25,7 +25,6 @@ export default function Contact() {
                 id="name"
                 name="name"
                 placeholder=" Aa"
-                type="text"
                 required
               />
             </div>

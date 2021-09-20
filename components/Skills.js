@@ -13,16 +13,31 @@ export default function Skills() {
         </div>
         <div className={styles.present_skills}>
           <div className={styles.skill}>
-            <Image src={NodeImg} width={200} height={200} />
+            <Image
+              alt="node js random logo"
+              src={NodeImg}
+              width={200}
+              height={200}
+            />
             <h2>Node.js</h2>
           </div>
           <div className={styles.skill}>
-            <Image src={ReactImg} width={200} height={200} />
+            <Image
+              alt="react js random logo"
+              src={ReactImg}
+              width={200}
+              height={200}
+            />
             <h2>React.js</h2>
           </div>
 
           <div className={styles.skill}>
-            <Image src={NextImg} width={200} height={200} />
+            <Image
+              alt="next js random logo"
+              src={NextImg}
+              width={200}
+              height={200}
+            />
             <h2>Next.js</h2>
           </div>
         </div>

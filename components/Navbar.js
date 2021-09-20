@@ -19,7 +19,7 @@ export default function Navbar() {
         <nav className={styles.nav}>
           <li>
             <Link to="home" spy={true} smooth={true} duration={500}>
-              <Image src={Logo} width={60} height={60} />
+              <Image src={Logo} width={60} height={60} alt="bentijanic logo" />
             </Link>
           </li>
 
@@ -36,7 +36,13 @@ export default function Navbar() {
           </li>
         </nav>
         <div className={styles.container_hero}>
-          <Image src={Logo} width={99} height={99} className={styles.logo} />
+          <Image
+            src={Logo}
+            width={99}
+            height={99}
+            className={styles.logo}
+            alt="bentijanics logo"
+          />
 
           <h3>Ben Tijanic</h3>
           <h1>Full Stack Developer</h1>

@@ -13,7 +13,12 @@ export default function Projects() {
         </div>
         <div className={styles.present_skills}>
           <div className={styles.skill}>
-            <Image src={FncImg} width={200} height={200} />
+            <Image
+              alt="fnatic gaming logo"
+              src={FncImg}
+              width={200}
+              height={200}
+            />
             <h2>Misfits Gaming</h2>
             <p>Shopify-React</p>
             <a
@@ -26,7 +31,12 @@ export default function Projects() {
             </a>
           </div>
           <div className={styles.skill}>
-            <Image src={MsfImg} width={200} height={200} />
+            <Image
+              alt="misfits gaming logo"
+              src={MsfImg}
+              width={200}
+              height={200}
+            />
             <h2>Fnatic</h2>
             <p>Shopify-React</p>
             <a
@@ -40,7 +50,12 @@ export default function Projects() {
           </div>
 
           <div className={styles.skill}>
-            <Image src={CryptoImg} width={200} height={200} />
+            <Image
+              alt="cryp7o website logo"
+              src={CryptoImg}
+              width={200}
+              height={200}
+            />
             <h2>Cryp7o</h2>
             <p>React.js</p>
 
