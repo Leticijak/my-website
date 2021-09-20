@@ -1,0 +1,29 @@
+.skills_section {
+  background: #161616;
+  padding: 40px 0;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  font-family: "Orbitron", sans-serif;
+  color: #fff;
+}
+.center h1 {
+  margin-bottom: 40px;
+}
+.present_skills {
+  display: flex;
+  justify-content: space-around;
+}
+.skill {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.skill h2 {
+  color: #fff;
+  font-weight: 400;
+  text-shadow: 1px 1px 3px black;
+  font-family: O;
+}

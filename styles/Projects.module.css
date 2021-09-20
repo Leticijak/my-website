@@ -1,0 +1,50 @@
+.skills_section {
+  background: #161616;
+  padding: 40px 0;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  font-family: "Orbitron", sans-serif;
+  color: #fff;
+}
+.center h1 {
+  margin-bottom: 40px;
+}
+.present_skills {
+  display: flex;
+  justify-content: space-around;
+}
+.skill {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.skill h2 {
+  color: #fff;
+  font-weight: 400;
+  text-shadow: 1px 1px 3px black;
+  font-family: Orbitron, sans-serif;
+  letter-spacing: 3px;
+}
+.skill a {
+  background: #161616;
+  color: green;
+  border: green 2px solid;
+  padding: 10px 25px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+.skill a:hover {
+  background: green;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+.skill p {
+  color: #fff;
+}

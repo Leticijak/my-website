@@ -1,0 +1,81 @@
+.contact {
+  background: black;
+  padding: 30px 0;
+}
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title h1 {
+  color: #fff;
+  font-family: "Orbitron", sans-serif;
+}
+.title i {
+  font-size: large;
+}
+.title h2 {
+  color: #fff;
+  font-weight: 300;
+}
+
+.formazord {
+  background: black;
+  display: flex;
+  color: #fff;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  padding: 50px 0;
+}
+.formazord h2 {
+  font-family: "Orbitron", sans-serif;
+  font-size: 3rem;
+  letter-spacing: 2px;
+}
+.formazord p {
+  font-family: "Orbitron", sans-serif;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+}
+.group label {
+  color: #fff;
+  padding: 10px;
+}
+.group input {
+  outline: none;
+  height: 2rem;
+}
+
+.formazord textarea {
+  width: 500px;
+  outline: none;
+  font-size: 35px;
+  height: 200px;
+}
+.formazord textarea:placeholder-shown {
+  font-size: 12px;
+}
+.spec {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.formazord button {
+  margin-top: 20px;
+  justify-content: flex-end;
+  align-items: flex-end;
+  background: rgb(80, 212, 80);
+  font-family: "Orbitron", sans-serif;
+  font-size: 24px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+}

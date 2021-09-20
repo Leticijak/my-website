@@ -1,9 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: #161616;
 }
 
 a {
@@ -13,4 +17,42 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+@keyframes rotate {
+  0% {
+    opacity: 0;
+    transform: rotateZ(0);
+  }
+  50% {
+    transform: rotateZ(-360deg);
+  }
+  100% {
+    opacity: 1;
+    transform: rotateZ(360deg);
+  }
+}
+#mailz {
+  font-size: 49px;
+  color: #fff;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+
+  background: url("../public/img/paw.webp");
+  color: #fff;
+  align-items: center;
+  padding: 20px;
+}
+#goup {
+  align-items: center;
+  text-align: center;
+  font-size: 44px;
+  cursor: pointer;
+}
+section {
+  color: black;
+  padding: 30px 0;
 }
