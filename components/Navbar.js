@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Logo from "../public/img/original.png";
+import Logo from "../public/original.png";
 import styles from "../styles/Navbar.module.css";
 import * as Scroll from "react-scroll";
 import {
