@@ -12,6 +12,10 @@
 .title h1 {
   color: #fff;
   font-family: "Orbitron", sans-serif;
+  margin: 30px 0;
+  font-size: 2rem;
+  text-shadow: 1px 1px 3px black;
+  letter-spacing: 2px;
 }
 .title i {
   font-size: large;
@@ -78,4 +82,47 @@
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
+}
+@media screen and (max-width: 768px) {
+  .formazord {
+    flex-wrap: wrap;
+  }
+  .formazord textarea {
+    width: 80vw;
+  }
+}
+@media screen and (max-width: 600px) {
+  .formazord {
+    flex-wrap: wrap;
+  }
+  .formazord h2 {
+    font-size: 1.2rem;
+    font-weight: normal;
+    margin: 0;
+  }
+  .formazord p {
+    font-size: 1rem;
+    margin: 30px 0;
+  }
+  .formazord textarea {
+    width: 80vw;
+  }
+  .contact h1 {
+    font-size: 28px;
+    font-weight: 300;
+    text-shadow: 1px 1px 2px black;
+    margin: 20px auto;
+  }
+  #mailz {
+    font-size: 11px;
+    color: #fff;
+  }
+  .title h2 {
+    margin-top: 15px;
+    font-size: 15px;
+  }
+  .formazord button {
+    font-size: 18px;
+    padding: 7px 14px;
+  }
 }

@@ -17,7 +17,7 @@ export default function Contact() {
             <h2>Get in touch</h2>
             <p>Leave a message</p>
           </div>
-          <form action={process.env.NEXT_APP_FORM} method="POST">
+          <form action="https://formspree.io/f/xpzoqkzn" method="POST">
             <div className={styles.group}>
               <label htmlFor="name">Your Name</label>
               <input

@@ -1,6 +1,6 @@
 .skills_section {
   background: #161616;
-  padding: 40px 0;
+  padding: 80px 0;
 }
 .center {
   display: flex;
@@ -10,10 +10,12 @@
 }
 .center h1 {
   margin-bottom: 40px;
+  letter-spacing: 2px;
 }
 .present_skills {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 .skill {
   display: flex;
@@ -27,8 +29,11 @@
   text-shadow: 1px 1px 3px black;
   font-family: Orbitron, sans-serif;
   letter-spacing: 3px;
+  margin: 10px auto;
 }
 .skill a {
+  margin: 10px auto;
+
   background: #161616;
   color: green;
   border: green 2px solid;
@@ -46,5 +51,22 @@
   transition: all 0.3s ease-in-out;
 }
 .skill p {
+  margin: 10px auto;
   color: #fff;
+}
+@media screen and (max-width: 600px) {
+  .skill h2 {
+    padding: 6px auto;
+  }
+  .skill p {
+    margin: 15px auto;
+  }
+  .skill a {
+    margin: 15px auto;
+  }
+  .center h1 {
+    font-size: 28px;
+    font-weight: 300;
+    text-shadow: 1px 1px 2px black;
+  }
 }

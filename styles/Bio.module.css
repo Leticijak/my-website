@@ -5,7 +5,7 @@
   color: white;
   justify-content: center;
   align-items: center;
-  padding: 20px 0;
+  padding: 80px 0;
 }
 
 .bio_cont {
@@ -20,5 +20,29 @@
   font-family: "Quicksand", sans-serif;
 }
 .bio h1 {
+  margin: 30px 0;
+  font-size: 2rem;
+  text-shadow: 1px 1px 3px black;
   font-family: "Orbitron", sans-serif;
+  letter-spacing: 2px;
+}
+@media screen and (max-width: 768px) {
+  .bio_cont {
+    width: 88vw;
+  }
+}
+@media screen and (max-width: 600px) {
+  .bio h1 {
+    font-size: 28px;
+    font-weight: 300;
+    text-shadow: 1px 1px 2px black;
+    margin: 20px 0;
+  }
+  .bio_cont {
+    width: 88vw;
+  }
+  .bio_cont p {
+    margin: 5px 0;
+    font-size: 1rem;
+  }
 }
