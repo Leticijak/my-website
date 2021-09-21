@@ -33,20 +33,20 @@
 }
 .skill a {
   margin: 10px auto;
-
   background: #161616;
-  color: green;
-  border: green 2px solid;
+  color: #22c122;
+  border: #22c122 2px solid;
   padding: 10px 25px;
   cursor: pointer;
   border-radius: 5px;
   transition: all 0.3s ease-in-out;
   letter-spacing: 1px;
   font-weight: bold;
+  text-shadow: 1px 1px 3px black;
 }
 
 .skill a:hover {
-  background: green;
+  background: #22c122;
   color: #fff;
   transition: all 0.3s ease-in-out;
 }
