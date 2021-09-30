@@ -84,11 +84,14 @@
     flex-direction: column;
     justify-content: flex-start;
   }
+  .right {
+    margin-left: none;
+  }
   .right p {
     padding: 10px;
     font-size: 1.1rem;
     line-height: 1.6rem;
-    font-family: "Quicksand", sans-serif;
+
     text-align: left;
   }
   .right p > span {
