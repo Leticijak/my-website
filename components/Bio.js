@@ -8,7 +8,6 @@ export default function Bio() {
         <h1>Short bio</h1>
         <div className={styles.newstylez}>
           <div className="left">
-            {" "}
             <Image
               src="/photo3.webp"
               width={150}
