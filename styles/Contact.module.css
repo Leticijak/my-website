@@ -82,6 +82,13 @@
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+.formazord button:hover {
+  background: rgb(41, 102, 41);
+  color: #fff;
+  transition: all 0.2s ease-in-out;
 }
 @media screen and (max-width: 768px) {
   .formazord {

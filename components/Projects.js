@@ -16,8 +16,8 @@ export default function Projects() {
             <Image
               alt="fnatic gaming logo"
               src={FncImg}
-              width={200}
-              height={200}
+              width={190}
+              height={190}
             />
             <h2>Misfits Gaming</h2>
             <p>Shopify-React</p>
@@ -34,8 +34,8 @@ export default function Projects() {
             <Image
               alt="misfits gaming logo"
               src={MsfImg}
-              width={200}
-              height={200}
+              width={190}
+              height={190}
             />
             <h2>Fnatic</h2>
             <p>Shopify-React</p>
@@ -53,8 +53,8 @@ export default function Projects() {
             <Image
               alt="cryp7o website logo"
               src={CryptoImg}
-              width={200}
-              height={200}
+              width={190}
+              height={190}
             />
             <h2>Cryp7o</h2>
             <p>React.js</p>

@@ -47,21 +47,22 @@
 .container_hero h3 {
   font-size: 2rem;
   letter-spacing: 2px;
-  font-weight: 500;
+  font-weight: 400;
   text-shadow: 2p 2px 7px rgba(0, 0, 0, 0.7);
   animation: goDown 2s 1.5s both;
 }
 .container_hero h1 {
   font-size: 6rem;
-  font-weight: 400;
+  font-weight: 500;
   text-shadow: 1p 1px 3px rgba(0, 0, 0, 0.7);
   animation: spread 2s both;
 }
 .banner {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+
   align-items: center;
+
   background: linear-gradient(
       180deg,
       rgba(0, 0, 0, 0.9) 100%,
@@ -69,27 +70,29 @@
     ),
     url("../public/img/ashe.webp");
 
-  min-height: 300px;
-  align-content: center;
+  height: 300px;
+}
+.banner p {
+  font-size: 22px;
+  margin-top: 5rem;
+  text-align: center;
+  line-height: 2rem;
+  color: #dddddd;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+  letter-spacing: 0.3px;
+}
+.banner p > span {
+  color: #c2c2c2;
 }
 
-.banner p {
-  font-size: 20px;
-  margin-bottom: 30px;
-}
 .logo {
   animation: rotate 1.2s 1.5s ease-in-out both,
     smaller 1s 2.7s ease-in-out forwards,
     breathe 6s 10s linear forwards infinite;
 }
 .mybutton {
-  background: radial-gradient(
-    circle,
-    rgba(46, 202, 207, 1) 0%,
-    rgba(39, 162, 166, 1) 70%,
-    rgba(8, 76, 78, 1) 100%
-  );
-  padding: 20px 30px;
+  background: rgba(46, 202, 207, 1) 0%;
+  padding: 18px 30px;
   color: #000;
   text-shadow: 1px 1px 3px #fff;
   border-radius: 35px;
@@ -103,6 +106,13 @@
   animation: pop-up 1.2s 2s both;
   cursor: pointer;
   margin: 3.5rem 0 0 0;
+  transition: all 0.2s ease-in-out;
+}
+.mybutton:hover {
+  color: #fff;
+  text-shadow: 1px 1px 3px #000;
+  background: rgb(29, 114, 117);
+  transition: all 0.2s ease-in-out;
 }
 
 @keyframes goDown {
@@ -187,6 +197,25 @@
     opacity: 1;
   }
 }
+
+@media screen and (max-width: 1024px) {
+  .container_hero h1 {
+    font-size: 3rem;
+    margin-top: 4rem;
+  }
+  .container_hero h3 {
+    font-size: 2rem;
+  }
+  .mybutton {
+    margin-top: 4rem;
+    padding: 14px 27px;
+    font-size: 18px;
+  }
+  .contact {
+    font-size: 20px;
+    padding: 10px;
+  }
+}
 @media screen and (max-width: 768px) {
   .container_hero h1 {
     font-size: 2.8rem;
@@ -200,15 +229,16 @@
     word-spacing: normal;
     padding: 14px 28px;
   }
-  .banner p {
-    font-size: 18px;
-    text-align: center;
-    color: #adadad;
-    padding: 0 10px 10px 20px;
-  }
+
   .contact {
-    font-size: 22px;
+    font-size: 18px;
     padding: 8px;
+  }
+  .banner p {
+    font-size: 16px;
+    margin-top: 5rem;
+    text-align: center;
+    line-height: 2rem;
   }
 }
 @media screen and (max-width: 600px) {
@@ -222,18 +252,43 @@
     letter-spacing: normal;
   }
   .contact {
-    font-size: 18px;
+    font-size: 15px;
     padding: 10px;
   }
-  .banner p {
-    font-size: 15px;
-    text-align: center;
-    color: #adadad;
-  }
+
   .mybutton {
     margin-top: 40px;
     font-size: 19px;
     word-spacing: normal;
     padding: 14px 28px;
+  }
+  .banner p {
+    font-size: 13px;
+    margin-top: 1.3rem;
+    line-height: 1.4rem;
+  }
+}
+@media screen and (max-width: 300px) {
+  .container_hero h3 {
+    font-size: 1.3rem;
+  }
+  .container_hero h1 {
+    font-size: 1.7rem;
+  }
+  .banner p {
+    font-size: 10px;
+    margin-top: 1rem;
+    line-height: 1rem;
+  }
+  .mybutton {
+    margin-top: 40px;
+    font-size: 15px;
+    word-spacing: normal;
+    padding: 10px 20px;
+  }
+
+  .contact {
+    padding: 5px;
+    font-size: 14px;
   }
 }

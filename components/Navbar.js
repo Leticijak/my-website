@@ -19,7 +19,7 @@ export default function Navbar() {
         <nav className={styles.nav}>
           <li>
             <Link to="home" spy={true} smooth={true} duration={500}>
-              <Image src={Logo} width={60} height={60} alt="bentijanic logo" />
+              <Image src={Logo} width={50} height={50} alt="bentijanic logo" />
             </Link>
           </li>
 
@@ -53,10 +53,11 @@ export default function Navbar() {
         <div className={styles.banner}>
           <p>
             Making responsive, efficient and reliable web pages and applications
-          </p>
-          <p>
-            Combined with clean, representative and modern designs Get your
-            internet presence noticed today!
+            <br />
+            <span>
+              Combined with clean, representative and modern designs.
+              <br /> Get your internet presence noticed today!
+            </span>
           </p>
         </div>
       </div>

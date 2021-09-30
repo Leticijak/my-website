@@ -17,8 +17,8 @@ export default function Skills() {
               className={styles.nextImg}
               alt="node js random logo"
               src={NodeImg}
-              width={180}
-              height={180}
+              width="140px"
+              height="140px"
             />
             <h2>Node.js</h2>
           </div>
@@ -27,8 +27,8 @@ export default function Skills() {
               className={styles.nextImg}
               alt="react js random logo"
               src={ReactImg}
-              width={180}
-              height={180}
+              width="140px"
+              height="140px"
             />
             <h2>React.js</h2>
           </div>
@@ -38,8 +38,8 @@ export default function Skills() {
               className={styles.nextImg}
               alt="next js random logo"
               src={NextImg}
-              width={180}
-              height={180}
+              width="140px"
+              height="140px"
             />
             <h2>Next.js</h2>
           </div>
