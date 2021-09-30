@@ -20,6 +20,10 @@ export default function Home() {
           content="Author Ben Tijanic. Web portfolio with project links.
       Front End Development. Back end development. Techologies: MongoDB, React.js, JavaScript, Html5, CSS3, Node.js , Express.js "
         />
+        <meta
+          name="keywords"
+          content="Full Stack Web Developer,Ben Tijanic. Making responsive, efficient and reliable web pages and applications.  Combined with clean, representative and modern designs. Get your web presence noticed today!"
+        />
 
         <link rel="apple-touch-icon" href="/bluefav.png" />
         <link rel="shortcut icon" type="image/png" href="/bluefav.png" />

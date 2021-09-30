@@ -52,6 +52,7 @@
   animation: goDown 2s 1.5s both;
 }
 .container_hero h1 {
+  margin-top: 2rem;
   font-size: 6rem;
   font-weight: 500;
   text-shadow: 1p 1px 3px rgba(0, 0, 0, 0.7);
@@ -60,21 +61,14 @@
 .banner {
   display: flex;
   flex-direction: column;
+  background: rgba(0, 0, 0, 0.7);
+  height: 100%;
 
   align-items: center;
-
-  background: linear-gradient(
-      180deg,
-      rgba(0, 0, 0, 0.9) 100%,
-      rgba(0, 0, 0, 1) 100%
-    ),
-    url("../public/img/ashe.webp");
-
-  height: 300px;
 }
 .banner p {
   font-size: 22px;
-  margin-top: 5rem;
+  margin-top: 3.2rem;
   text-align: center;
   line-height: 2rem;
   color: #dddddd;

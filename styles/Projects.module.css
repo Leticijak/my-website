@@ -1,6 +1,8 @@
 .skills_section {
   background: #161616;
   padding: 80px 0;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 .center {
   display: flex;
