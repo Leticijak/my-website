@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Logo from "../public/original.png";
 import styles from "../styles/Navbar.module.css";
 import * as Scroll from "react-scroll";
 import {
@@ -19,7 +18,12 @@ export default function Navbar() {
         <nav className={styles.nav}>
           <li>
             <Link to="home" spy={true} smooth={true} duration={500}>
-              <Image src={Logo} width={50} height={50} alt="bentijanic logo" />
+              <Image
+                src="/original.png"
+                width={50}
+                height={50}
+                alt="bentijanic logo"
+              />
             </Link>
           </li>
 
@@ -37,7 +41,7 @@ export default function Navbar() {
         </nav>
         <div className={styles.container_hero}>
           <Image
-            src={Logo}
+            src="/original.png"
             width={99}
             height={99}
             className={styles.logo}
