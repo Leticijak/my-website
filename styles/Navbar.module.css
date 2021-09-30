@@ -252,8 +252,9 @@
     letter-spacing: normal;
   }
   .contact {
-    font-size: 15px;
+    font-size: 18px;
     padding: 10px;
+    letter-spacing: 0.5px;
   }
 
   .mybutton {
