@@ -2,7 +2,7 @@
 ## Getting Started
 
 
-This is Next.js with styled components
+This is my personal website made with  Next.js using styled components 
 
 
 ```
