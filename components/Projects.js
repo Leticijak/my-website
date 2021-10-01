@@ -42,7 +42,7 @@ export default function Projects() {
             <a
               type="button"
               target="_blank"
-              href="https://shop.misfitsgaming.gg/"
+              href="https://fnatic.com/shop"
               rel="noreferrer"
             >
               Visit
